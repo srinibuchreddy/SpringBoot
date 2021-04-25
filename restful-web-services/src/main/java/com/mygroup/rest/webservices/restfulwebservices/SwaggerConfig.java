@@ -16,6 +16,7 @@ public class SwaggerConfig {
 	//All the apis
 	
 	@Bean
+	//This creates Swagger API documentation
 	public Docket api() {
 	
 		return new Docket(DocumentationType.SWAGGER_2);
